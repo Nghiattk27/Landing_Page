@@ -1,0 +1,9 @@
+.smallText {
+    line-height: 28px;
+    margin-bottom: 0px;
+    margin-top: 28px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: rgb(72, 97, 118);
+    -webkit-text-stroke: 0.04rem rgb(72, 97, 118);
+}

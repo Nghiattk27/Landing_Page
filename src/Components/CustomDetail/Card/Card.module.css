@@ -1,0 +1,10 @@
+.p {
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+
+@media (max-width: 576px) {
+    .p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,35 @@
+.h2 {
+    font-size: 38px;
+    color: #183b56;
+    font-family: "hk_groteskbold", sans-serif;
+}
+
+.p {
+    font-size: 18px;
+    line-height: 1.78;
+    color: #5a7184;
+}
+
+.strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: #183b56;
+    font-family: "hk_groteskbold", sans-serif;
+}
+
+.img {
+    width: 110px;
+}
+
+@media (max-width: 992px) {
+    .img {
+        width: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img {
+        width: 90px;
+        margin: auto;
+    }
+}

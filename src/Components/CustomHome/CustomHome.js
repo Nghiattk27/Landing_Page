@@ -1,21 +1,19 @@
 import React from 'react';
 import styles from "./CustomHome.module.css";
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import ill from "../../../images/ill.png";
-import icon from "../../../images/Icon.png"
+import ill from "../../images/ill.png";
+import icon from "../../images/Icon.png"
+import common from "../../common.module.css";
+import ImgBx from '../ImgBx/ImgBx';
+import ContactFormBx from '../ContactFormBx/ContactFormBx';
 
 function CustomHome() {
     return (
-        <div className='100vw'
+        <div className={common.container}
             style={{
-                fontFamily: "hk_groteskbold, sans-serif",
                 background: "#EBF7F2",
             }}>
-            <Container
-                style={{
-                    background: "#EBF7F2",
-                    paddingTop: "10vw",
-                }}>
+            <Container>
                 <Row className='d-md-flex justify-content-center'>
                     <Col lg="6" md="10" sm="12" className='text-lg-start text-center mb-5'>
                         <h2
@@ -29,16 +27,8 @@ function CustomHome() {
                                 one place, remote teams will stay productive no matter where you're working from.
                             </p>
                         </div>
-                        <div className='d-flex justify-content-center d-lg-block'>
-                            <div className={styles.inputBx}>
-                                <input placeholder='Your Email here..'
-                                    className={styles.input} />
-                                <div className='w-50'>
-                                    <Button className={styles.button} >
-                                        <strong> Get started </strong>
-                                    </Button>
-                                </div>
-                            </div>
+                        <div>
+                            <ContactFormBx />
                         </div>
                     </Col>
                     <Col lg="6" md="9" sm="12 mb-5">
@@ -46,12 +36,7 @@ function CustomHome() {
                     </Col>
                 </Row>
                 <Row>
-                    <div className='d-flex justify-content-center d-lg-block'>
-                        <div className='mb-5 d-flex justify-content-center
-                        justify-content-lg-start' style={{ width: "100px" }} >
-                            <img src={icon} class="img-fluid" alt="..." />
-                        </div>
-                    </div>
+                    <ImgBx img={icon} />
                 </Row>
             </Container>
         </div >

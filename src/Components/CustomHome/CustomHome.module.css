@@ -1,0 +1,27 @@
+.h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 0.2px;
+    color: #183b56;
+    margin-bottom: 1.8rem;
+}
+
+.p {
+    font-size: 1.20rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: #5a7184;
+    margin-bottom: 46px;
+}
+
+@media (max-width: 576px) {
+    .h2 {
+        font-size: 2rem;
+    }
+}

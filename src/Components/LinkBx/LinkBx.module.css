@@ -1,0 +1,14 @@
+.a {
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .a {
+        font-size: 1rem;
+    }
+}
